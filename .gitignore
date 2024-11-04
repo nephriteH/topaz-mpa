@@ -13,7 +13,9 @@ dist
 dist-ssr
 coverage
 *.local
-
+/stats.html
+tsconfig.tsbuildinfo
+vite.config.ts.timestamp*
 /cypress/videos/
 /cypress/screenshots/
 
@@ -26,5 +28,3 @@ coverage
 *.njsproj
 *.sln
 *.sw?
-
-*.tsbuildinfo
