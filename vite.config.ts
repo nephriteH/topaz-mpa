@@ -20,9 +20,7 @@ const infoLog = (error) => console.log(chalk.yellowBright(`${error}`));
  */
 const getBuildEnterPages = () => {
   if (npm_lifecycle_event === 'dev-all') {
-    return {
-      [npm_config_page]: resolve(__dirname)
-    };
+    return {};
   }
   if (!npm_config_page && npm_lifecycle_event !== 'dev') {
     errorLog('请在命令行后以 `--page=页面目录` 格式指定页面目录！');
