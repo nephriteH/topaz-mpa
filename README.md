@@ -1,34 +1,32 @@
 # topaz-mpa
 
-This template should help get you started developing with Vue 3 in Vite.
+# 多页面项目
 
-## Recommended IDE Setup
+## 技术栈 vite+vue3.ts+prettier+eslint+node.js
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 项目说明文档
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## 项目安装
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 本地调试
 
 ```sh
-npm run dev
+# 启动所有页面
+npm run dev-all
+# 启动单独页面
+npm run dev --page=a
 ```
 
-### Type-Check, Compile and Minify for Production
+### 构建项目
 
 ```sh
-npm run build
+# 构建所有页面
+npm run build-all
+# 构建单独页面
+npm run build --page=a
 ```
-多页面项目
+
