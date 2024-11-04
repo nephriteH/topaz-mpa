@@ -4,7 +4,7 @@
 
 ## 技术栈 vite+vue3.ts+prettier+eslint+node.js
 
-## 项目说明文档
+## [多页面项目搭建文档](https://www.jianshu.com/p/ad28486eb8e3)
 
 ## 项目安装
 
